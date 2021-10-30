@@ -959,17 +959,17 @@
     rxjs "6.6.3"
     xss "1.0.6"
 
-"@grafana/data@7.4.3":
-  version "7.4.3"
-  resolved "https://registry.yarnpkg.com/@grafana/data/-/data-7.4.3.tgz#b19a6a767e0be92e9a3d49d6441d2b056eefe944"
-  integrity sha512-zYpqNVtcAbJnY9KiW2bYH9fAu5H91+SC5W926KCc4ZKwT5I/B/uAvl1TwT3pLF1w8bMsuotrNorWQOFSk36Fbg==
+"@grafana/data@7.5.11":
+  version "7.5.11"
+  resolved "https://registry.yarnpkg.com/@grafana/data/-/data-7.5.11.tgz#bebe312705c4b4225c16bf8853aa15dceb67dcea"
+  integrity sha512-pUPum4Aft7Dp1x6lWysEPPZuB2bDxHMAFJbGvAFFsYsCSaPmqBKdq3X3ceuSkqXQ9FfaDbVFt4bbIrH6p6P2dQ==
   dependencies:
     "@braintree/sanitize-url" "4.0.0"
     "@types/d3-interpolate" "^1.3.1"
     apache-arrow "0.16.0"
     eventemitter3 "4.0.7"
-    lodash "4.17.20"
-    marked "1.2.2"
+    lodash "4.17.21"
+    marked "2.0.1"
     rxjs "6.6.3"
     xss "1.0.6"
 
@@ -998,10 +998,10 @@
     typescript "4.1.2"
     yaml "^1.8.3"
 
-"@grafana/e2e-selectors@7.4.3":
-  version "7.4.3"
-  resolved "https://registry.yarnpkg.com/@grafana/e2e-selectors/-/e2e-selectors-7.4.3.tgz#e86aeea9dd7f34252f210acfc9dd7814e4a8d42d"
-  integrity sha512-ojQOeclSZboi7hj/kTMDHP94A/Ac1yAaJnDuSvVyc098JP0KaaNaJAgJljjIZLVVC53B6A3p4PGpJPWxAsQUWw==
+"@grafana/e2e-selectors@7.5.11":
+  version "7.5.11"
+  resolved "https://registry.yarnpkg.com/@grafana/e2e-selectors/-/e2e-selectors-7.5.11.tgz#cc0adced595c6a3e7917eab14a7b1d750a7951a6"
+  integrity sha512-tZalx29TcuPjoy1oJd7LvDVgEjYP4uVReV0wDDRf1kvWuuzoJgM0xI7EZl2pzGDmvwgpqShED3KsKlr3LCnefA==
   dependencies:
     "@grafana/tsconfig" "^1.0.0-rc1"
     commander "5.0.0"
@@ -1036,13 +1036,13 @@
     prettier "2.2.1"
     typescript "4.1.3"
 
-"@grafana/runtime@7.4.3":
-  version "7.4.3"
-  resolved "https://registry.yarnpkg.com/@grafana/runtime/-/runtime-7.4.3.tgz#fbec723c923c73306fa8940aeda19190702f0274"
-  integrity sha512-tz8Q870O8Mw4n/IZCoH4LJb7GCmJkSIah17xVWXoZKtTL/lByqB8jbBOKf91esefMSc0DDSxL3jkOgXoLM8FiA==
+"@grafana/runtime@7.5.11":
+  version "7.5.11"
+  resolved "https://registry.yarnpkg.com/@grafana/runtime/-/runtime-7.5.11.tgz#5e608dbb07846acdac5abfc2151ec4f2e1aa9927"
+  integrity sha512-9rJFyGc6SZwxjyoypKDbjU4OcwQPgJ1uFDlwHRQfwLWm8QlCR3DiGVSBUakdSE/+qeyTrn9R2/jbaoidIkKqOQ==
   dependencies:
-    "@grafana/data" "7.4.3"
-    "@grafana/ui" "7.4.3"
+    "@grafana/data" "7.5.11"
+    "@grafana/ui" "7.5.11"
     systemjs "0.20.19"
     systemjs-plugin-css "0.1.37"
 
@@ -1213,14 +1213,15 @@
     tinycolor2 "1.4.1"
     uplot "1.6.4"
 
-"@grafana/ui@7.4.3":
-  version "7.4.3"
-  resolved "https://registry.yarnpkg.com/@grafana/ui/-/ui-7.4.3.tgz#9de5225f102f133d143186281045e11a4ca75320"
-  integrity sha512-EZW9Y/idL8bNCIW8lHcqPLytP4yNn5dmx+zJYumWuO4drW+Jx/UJVdEkEUQ5H7Es3rNr2Y5HwDO09ubD+T1PCQ==
+"@grafana/ui@7.5.11":
+  version "7.5.11"
+  resolved "https://registry.yarnpkg.com/@grafana/ui/-/ui-7.5.11.tgz#f2d623bcc2f065e93e9f90c8ad0d11582bb0bed2"
+  integrity sha512-qmYFs4c1jA/Td3vsi/P8H5GsImYp9hnxbGXUC+F/qJ0sXYw86E61CNxb2E+CLGr4NlfW3fbVUFOP+PnxKfZZNg==
   dependencies:
-    "@emotion/core" "^10.0.27"
-    "@grafana/data" "7.4.3"
-    "@grafana/e2e-selectors" "7.4.3"
+    "@emotion/core" "10.0.27"
+    "@grafana/aws-sdk" "0.0.3"
+    "@grafana/data" "7.5.11"
+    "@grafana/e2e-selectors" "7.5.11"
     "@grafana/slate-react" "0.22.9-grafana"
     "@grafana/tsconfig" "^1.0.0-rc1"
     "@iconscout/react-unicons" "1.1.4"
@@ -1235,13 +1236,18 @@
     "@types/react-table" "7.0.12"
     "@types/slate" "0.47.1"
     "@types/slate-react" "0.22.5"
+    "@visx/event" "1.3.0"
+    "@visx/gradient" "1.0.0"
+    "@visx/scale" "1.4.0"
+    "@visx/shape" "1.4.0"
+    "@visx/tooltip" "1.3.0"
     classnames "2.2.6"
     d3 "5.15.0"
     emotion "10.0.27"
     hoist-non-react-statics "3.3.2"
     immutable "3.8.2"
     jquery "3.5.1"
-    lodash "4.17.20"
+    lodash "4.17.21"
     moment "2.24.0"
     monaco-editor "0.20.0"
     papaparse "5.3.0"
@@ -1264,7 +1270,7 @@
     react-transition-group "4.4.1"
     slate "0.47.8"
     tinycolor2 "1.4.1"
-    uplot "1.6.4"
+    uplot "1.6.9"
 
 "@grafana/ui@7.5.9":
   version "7.5.9"
@@ -9164,9 +9170,6 @@ postcss-convert-values@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/postcss-convert-values/-/postcss-convert-values-4.0.1.tgz#ca3813ed4da0f812f9d43703584e449ebe189a7f"
   integrity sha512-Kisdo1y77KUC0Jmn0OXU/COOJbzM8cImvw1ZFsBgBgMgb1iL23Zs/LXRe3r+EZqM3vGYKdQ2YJVQ5VkJI+zEJQ==
-  dependencies:
-    postcss "^7.0.0"
-    postcss-value-parser "^3.0.0"
 
 postcss-custom-media@^7.0.8:
   version "7.0.8"
