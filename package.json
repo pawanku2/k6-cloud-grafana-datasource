@@ -23,7 +23,7 @@
     "node": ">=14 <15"
   },
   "dependencies": {
-    "@grafana/runtime": "7.4.3",
+    "@grafana/runtime": "8.2.0",
     "@types/keyv": "3.1.2",
     "keyv": "4.0.3"
   }
